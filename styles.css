@@ -1,0 +1,58 @@
+/* Your Styles Here */
+body {
+    font-family: Lucida Console, monospace;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: #769c76;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 700px;
+    text-align: center;
+}
+
+.info-box {
+    background-color: DarkSeaGreen;
+    border: 6px solid #5b825b;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 15px;
+    min-height: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.linkedin-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: DarkSeaGreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+h1 {
+    font-size: 1.4rem;
+    margin-top: 2px;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1px;
+}
+
+img {
+    max-height: 20%;
+    max-width: 20%;
+    border-radius: 50%;
+    border: 3px solid black;
+}
